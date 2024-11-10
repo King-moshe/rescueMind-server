@@ -20,7 +20,7 @@ exports.sendImageForPrediction = async (imagePath) => {
     // const prompt = "האם יש בתמונה אנשים פצועים? אנא פרט את סוג הפציעה, מיקומה ומספר האנשים הפצועים. שימו לב: המערכת אינה תחליף לבדיקה רפואית.";
     // const prompt = "אנא בצע זיהוי האם האדם בתמונה חסר איברים כלשהם...";
     // const prompt = "Identify if the person in the image is missing any limbs.";
-
+   
     console.log("Sending request to Gemini API...");
 
     const result = await model.generateContent({
